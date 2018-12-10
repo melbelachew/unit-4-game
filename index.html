@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Game</title>
+
+  <style>
+  
+  .crystals { 
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.crystal { 
+    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+    color: purple;
+}
+
+img: {size: 20px} </style>
+
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+  <link rel="css" href="./assets/css/style.css">
+
+</head>
+
+<body>
+<p id = "result" >Result:</p>
+    <div 
+    class ="crystals">
+    </div>
+    <div id = "wins"><p>Wins</p></div>
+    <div id = "losses"><p>Losses</p></div>
+
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
